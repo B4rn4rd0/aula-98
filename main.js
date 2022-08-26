@@ -55,7 +55,7 @@ function takeSelfie(){
 }
 function save(){
     link = document.getElementById("link");
-    image = document.getElementById("selfieImage").scr;
+    image = document.getElementById("selfieImage").src;
     link.href = image;
     link.click();
 }
